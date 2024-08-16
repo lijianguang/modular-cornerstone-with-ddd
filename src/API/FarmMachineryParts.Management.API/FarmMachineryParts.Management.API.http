@@ -1,0 +1,6 @@
+@FarmMachineryParts.Management.API_HostAddress = http://localhost:5261
+
+GET {{FarmMachineryParts.Management.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

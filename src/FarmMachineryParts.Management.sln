@@ -3,9 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{2C5FA8D0-2458-4633-A7EF-E6BE0053A983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmMachineryParts.Management.API", "API\FarmMachineryParts.Management.API\FarmMachineryParts.Management.API.csproj", "{EB2F1F45-6FB0-44E4-9B68-0B79B110A7A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "..\build\_build.csproj", "{BF6DD057-55FC-481A-B954-E0A776A42148}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{3FDA19F6-8B2D-4F27-A125-87EEA52C9F3D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{6AA6BEED-6967-456D-B324-B8CF2A9F352B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FarmMachineryParts.Management.Database", "Database\FarmMachineryParts.Management.Database\FarmMachineryParts.Management.Database.sqlproj", "{A0D66001-5ABA-4A50-8EEA-FC9ACEEDC306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{63A7123D-CBDF-469F-BF5D-EA4EDD2E7061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2F047136-C0CF-475A-B47E-3E11179B0F3B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB2F1F45-6FB0-44E4-9B68-0B79B110A7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2F1F45-6FB0-44E4-9B68-0B79B110A7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2F1F45-6FB0-44E4-9B68-0B79B110A7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2F1F45-6FB0-44E4-9B68-0B79B110A7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6DD057-55FC-481A-B954-E0A776A42148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6DD057-55FC-481A-B954-E0A776A42148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6DD057-55FC-481A-B954-E0A776A42148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6DD057-55FC-481A-B954-E0A776A42148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D66001-5ABA-4A50-8EEA-FC9ACEEDC306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D66001-5ABA-4A50-8EEA-FC9ACEEDC306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D66001-5ABA-4A50-8EEA-FC9ACEEDC306}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0D66001-5ABA-4A50-8EEA-FC9ACEEDC306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D66001-5ABA-4A50-8EEA-FC9ACEEDC306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D66001-5ABA-4A50-8EEA-FC9ACEEDC306}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB2F1F45-6FB0-44E4-9B68-0B79B110A7A7} = {2C5FA8D0-2458-4633-A7EF-E6BE0053A983}
+		{A0D66001-5ABA-4A50-8EEA-FC9ACEEDC306} = {6AA6BEED-6967-456D-B324-B8CF2A9F352B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA0243C7-412E-4D31-8D1C-92E597C6C938}
